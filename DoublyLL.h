@@ -26,7 +26,14 @@ public:
     length = 1;
   }
   
-  ~DoublyLinkedList() =default;
+  ~DoublyLinkedList() {
+    Node *currentNode = this->head;
+    while(currentNode != nullptr) {
+      Node *temp = currentNode;
+      currentNode = currentNode->next;
+      delete temp;
+    }
+  }
   
   void append(type value) {
     Node *newNode{ new Node };
