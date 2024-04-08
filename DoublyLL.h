@@ -112,9 +112,8 @@ public:
 
   void printList() {
     Node *currentNode = this->head;
-    while(true) {
+    while(currentNode != nullptr) {
       std::cout << currentNode->value << " ";
-      if (currentNode->next == nullptr) break;
       currentNode = currentNode->next;
     }
   }
