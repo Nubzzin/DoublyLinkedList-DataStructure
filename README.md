@@ -1,8 +1,8 @@
 # Implementação de DoublyLinkedList em C++ com RawPointers | DoublyLinkedList implementation in C++ with RawPointers
 
-Uma implementação de **Lista Duplamente Encadeada (DoublyLinkedList) em C++** utilizando **ponteiros brutos (Raw Pointers)**. Cada nó contém um valor, um ponteiro para o próximo nó e um ponteiro para o nó anterior, permitindo percorrer a lista em ambas as direções.  
+A C++ implementation of a Doubly Linked List using Raw Pointers. Each node contains a value, a pointer to the next node, and a pointer to the previous node, allowing traversal of the list in both directions. 
 
-- Inserção e remoção eficientes em qualquer posição  
-- Percorrimento bidirecional (frente e trás)  
-- Gerenciamento manual de memória sem smart pointers  
-- Estrutura flexível sem dependências externas  
+- Efficient insertion and removal at any position 
+- Bidirectional traversal (forward and backward) 
+- Manual memory management without smart pointers 
+- Flexible structure without external dependencies
